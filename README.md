@@ -1,5 +1,5 @@
 # Calculator_PyQt
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Tooloom/Calculator_PyQt?color=%2300b359&label=version&style=flat-square)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Tooloom/Calculator_PyQt?color=lime&label=version&logo=1.0&logoColor=green&style=flat-square)
 # Showcase
 - This is simple calculator created by using `PyQt`
 - I created this calculator to emprove my skills in programming on `Python` and to get acquainted with `PyQt` and `Qt Designer`
