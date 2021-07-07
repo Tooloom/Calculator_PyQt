@@ -116,7 +116,7 @@ class App(QWidget):
             self.ui.l_display.setText('0')
         # ----------------------------------- Square and Square Root buttons handler -----------------------------------
         elif sign == 'sq':
-            if self.s_num == '' and self.f_num != '' and self.op_sign == '':
+            if self.f_num != '' and self.s_num == '' and self.op_sign == '':
                 self.op_sign = sign
                 self.operation()
             else:
@@ -166,7 +166,11 @@ class App(QWidget):
             else:
                 self.op_result = float(self.f_num) / float(self.s_num)
         elif self.op_sign == 'sq':
-            self.op_result = float(self.f_num) ** 2
+            try:
+                self.op_result = float(self.f_num) ** 2
+            except Exception:
+                self.click('c')
+                self.op_result = 'ERROR'
         elif self.op_sign == 'sqrt':
             try:
                 self.op_result = math.sqrt(float(self.f_num))
