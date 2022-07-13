@@ -1,4 +1,4 @@
-# Calculator_PyQt
+# Calculator_PyQt (have to REDO this program)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Tooloom/Calculator_PyQt?color=%2300b359&label=version&style=flat-square)
 # Showcase
 - This is a simple calculator created by using `PyQt`
